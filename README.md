@@ -2,7 +2,7 @@
 
 MeNet is a mixed-effects deep neural network architecture for multi-environment agronomic traits prediction. This repository includes model deployment, training steps, prediction steps, and model parameter settings.
 
-<img src="saved/menet.png" alt="MeNet Overview" style="zoom: 33%;" />
+<img src="saved/MeNet.png" alt="MeNet Overview" style="zoom: 33%;" />
 
 ### Set up
 
