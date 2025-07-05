@@ -1,0 +1,131 @@
+{
+  "culmlength" : {
+    "batch size" : 128,
+    "p1" : 0.8,
+    "p2" : 0.8,
+    "p3" : 0.8,
+    "p4" : 0.6,
+    "wd" : 1e-5,
+    "saved" : 60
+  },
+
+  "headingdate" : {
+    "batch size" : 128,
+    "p1" : 0.6,
+    "p2" : 0.6,
+    "p3" : 0.8,
+    "p4" : 0.6,
+    "wd" : 1e-5,
+    "saved" : 60
+  },
+
+  "plantheight" : {
+    "batch size" : 128,
+    "p1" : 0.8,
+    "p2" : 0.7,
+    "p3" : 0.8,
+    "p4" : 0.5,
+    "wd" : 1e-5,
+    "saved" : 60
+  },
+
+  "grainyield" : {
+    "batch size" : 128,
+    "p1" : 0.95,
+    "p2" : 0.8,
+    "p3" : 0.3,
+    "p4" : 0.9,
+    "wd" : 1e-3,
+    "saved" : 60
+  },
+
+  "paniclenumber" : {
+    "batch size" : 128,
+    "p1" : 0.9,
+    "p2" : 0.9,
+    "p3" : 0.5,
+    "p4" : 0.8,
+    "wd" : 1e-5,
+    "saved" : 60
+  },
+
+  "paniclelength" : {
+    "batch size" : 128,
+    "p1" : 0.9,
+    "p2" : 0.7,
+    "p3" : 0.5,
+    "p4" : 0.8,
+    "wd" : 1e-5,
+    "saved" : 60
+  },
+
+  "grainproteincontent" : {
+    "batch size" : 128,
+    "p1" : 0.9,
+    "p2" : 0.8,
+    "p3" : 0.8,
+    "p4" : 0.8,
+    "wd" : 1e-5,
+    "saved" : 60
+  },
+
+  "leafangle" : {
+    "batch size" : 128,
+    "p1" : 0.95,
+    "p2" : 0.93,
+    "p3" : 0.1,
+    "p4" : 0.8,
+    "wd" : 1e-5,
+    "saved" : 60
+  },
+
+  "leaflength" : {
+    "batch size" : 128,
+    "p1" : 0.9,
+    "p2" : 0.9,
+    "p3" : 0.2,
+    "p4" : 0.8,
+    "wd" : 1e-5,
+    "saved" : 60
+  },
+
+  "grainlength" : {
+    "batch size" : 128,
+    "p1" : 0.8,
+    "p2" : 0.8,
+    "p3" : 0.8,
+    "p4" : 0.6,
+    "wd" : 1e-5,
+    "saved" : 60
+  },
+
+  "grainwidth" : {
+    "batch size" : 128,
+    "p1" : 0.9,
+    "p2" : 0.8,
+    "p3" : 0.3,
+    "p4" : 0.9,
+    "wd" : 1e-5,
+    "saved" : 60
+  },
+
+  "leafwidth" : {
+      "batch size" : 128,
+      "p1" : 0.8,
+      "p2" : 0.8,
+      "p3" : 0.7,
+      "p4" : 0.8,
+      "wd" : 1e-4,
+      "saved" : 60
+  },
+
+  "default" : {
+      "batch size" : 128,
+      "p1" : 0.5,
+      "p2" : 0.5,
+      "p3" : 0.5,
+      "p4" : 0.5,
+      "wd" : 1e-4,
+      "saved" : 60
+  }
+}

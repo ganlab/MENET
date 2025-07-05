@@ -1,0 +1,80 @@
+{
+  "culmlength" : {
+    "batch size" : 128,
+    "p": 0.8,
+    "saved" : 100
+  },
+
+  "headingdate" : {
+    "batch size" : 128,
+    "p": 0.6,
+    "saved" : 100
+  },
+
+  "plantheight" : {
+    "batch size" : 128,
+    "p": 0.8,
+    "saved" : 100
+  },
+
+  "grainyield" : {
+    "batch size" : 128,
+    "p": 0.9,
+    "saved" : 100
+  },
+
+  "paniclenumber" : {
+    "batch size" : 128,
+    "p": 0.8,
+    "saved" : 100
+  },
+
+  "paniclelength" : {
+    "batch size" : 128,
+    "p": 0.8,
+    "saved" : 100
+  },
+
+  "grainproteincontent" : {
+    "batch size" : 128,
+    "p": 0.8,
+    "saved" : 100
+  },
+
+  "leafangle" : {
+    "batch size" : 128,
+    "p": 0.8,
+    "saved" : 100
+  },
+
+  "leaflength" : {
+    "batch size" : 128,
+    "p": 0.8,
+    "saved" : 100
+  },
+
+  "grainlength" : {
+    "batch size" : 128,
+    "p": 0.8,
+    "saved" : 100
+  },
+
+  "grainwidth" : {
+    "batch size" : 128,
+    "p": 0.8,
+    "saved" : 100
+  },
+
+  "leafwidth" : {
+    "batch size" : 128,
+    "p": 0.8,
+    "saved" : 100
+  },
+
+  "default" : {
+    "batch size" : 128,
+    "p" : 0.8,
+    "saved": 100
+  }
+}
+
