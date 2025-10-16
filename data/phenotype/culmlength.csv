@@ -1,0 +1,21 @@
+********* This is a sample data storage format in the Penotype file ***************
+ID,Culmlength
+N1-10-10A.rlt.bin,57.4
+N1-10-10B.rlt.bin,139.2
+N1-10-10C.rlt.bin,161.5
+N1-10-10D.rlt.bin,165.7
+N1-10-11A.rlt.bin,126.1
+N1-10-11B.rlt.bin,172.2
+N1-10-11E.rlt.bin,149.8
+N1-10-12A.rlt.bin,162.5
+N1-10-12B.rlt.bin,162.7
+N1-10-12C.rlt.bin,172
+N1-10-12D.rlt.bin,148.1
+N1-10-13B.rlt.bin,130.4
+N1-10-13C.rlt.bin,125.6
+N1-10-13D.rlt.bin,130.6
+N1-10-13E.rlt.bin,159.7
+N1-10-14A.rlt.bin,154.7
+N1-10-14B.rlt.bin,139.7
+N1-10-14C.rlt.bin,145.4
+N1-10-14D.rlt.bin,139.3

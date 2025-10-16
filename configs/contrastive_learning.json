@@ -1,0 +1,10 @@
+{
+  "root_path" : "data",
+  "stride" : 2,
+  "out_dim" : 128,
+  "margin" : 0.1,
+  "epoch" : 5,
+  "batch_size" : 32,
+  "model_path" :"save",
+  "gr_path" : "save",
+}

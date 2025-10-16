@@ -1,0 +1,27 @@
+{
+  "root_path" : "data",
+  "gr_path" : "save",
+  "batch_size" : 8,
+  "epoch" : 20,
+  "lr" : 0.01,
+  "param" : {
+      "VE" : {
+              "conv" : [8, 11, 2],
+              "res1" : [16, 11, 2],
+              "res2" : [32, 11, 2],
+              "adaptive" : 4,
+              "dropout" : 0.6,
+              "embedding_dim" : [4096, 1024]
+              },
+      "RepGeno" : {
+                    "embedding_dim" : [4096, 1024],
+                    "dropout" : 0.6
+                  },
+      "output" : {
+                    "VE_and_RepGeno_embedding_dim" : 1024,
+                    "embedding_dim" : 1024,
+                    "dropout" : 0.6
+                 }
+  },
+  "windows_flag" : 0
+}
