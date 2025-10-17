@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ### RepGeno to generate genetic relatedness
 
-- To generate genetic relatedness, train the trait specific encoder of the RepGeno. The resulting genetic relatedness is then saved in `save/genetic_relatedness.csv`.
+- To generate genetic relatedness, train the trait specific encoder of the RepGeno. The resulting genetic relatedness is then saved in `save/genetic_relatedness.pt`.
 
   ```python
   python train_trait_specific_encoder.py [parameters]
@@ -98,4 +98,5 @@ Authors:
 Yanhui Li  (huiyl@stu.njau.edu.cn): prototype development, data processing, model validation 
 
 Shengjie Ren (sunflower@stu.njau.edu.cn): overall framework design, contrastive learning strategy design, feature fusion mechanism, model architecture formulation, and interpretability and weight contribution analysis
+
 
