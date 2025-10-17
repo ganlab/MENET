@@ -38,7 +38,7 @@ def get_phen_snp(config, phen_name):
 
 def get_phen_gr(config, phen_name):
     phen_df = pd.read_csv(f"{config['root_path']}/phenotype/{phen_name}.csv", index_col=0)
-    gr = torch.load(f"{config['gr_path']}/gr.pt")
+    gr = torch.load(f"{config['gr_path']}/genetic_relatedness.pt")
     return split_data(phen_df, gr, config["root_path"])
 
 def calculate_snp_number(genotype):
