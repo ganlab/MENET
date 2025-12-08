@@ -21,7 +21,7 @@ def calculate_genetic_relatedness(model, data, config):
     model.eval()
     with torch.no_grad():
         SNP = data.iloc[:, 1:].values
-        SNP = torch.tensor(SNP, dtype=torch.float).reshape(SNP.shape[0], 1, SNP.shape[1])
+        SNP = torch.tensor(SNP, dtype=torch.float).reshape(SNP.shape[0], 1, SNP.shape[1]).to(config['device'])
         batch = 1024
         outputs = []
         for start in range(0, SNP.size(0), batch):
