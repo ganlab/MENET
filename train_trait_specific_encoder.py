@@ -14,7 +14,7 @@ config = json.load(open('configs/contrastive_learning.json'))
 def main(config):
     data, data_train, data_val, _ = get_phen_snp(config, f"{config['phen_name']}")
 
-    train_loader = create_triplet_dataloader(config, data_train, flag=config["population_flag"], shuffle=True, drop_last=True)
+    train_loader = create_triplet_dataloader(config, data_train, flag=config["flag"], shuffle=True, drop_last=True)
     val_loader = create_triplet_dataloader(config, data_val)
 
     model = TraitSpecificEncoderForRepGeno(snp_size=data_train.shape[-1] - 1,
